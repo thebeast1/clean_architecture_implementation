@@ -13,6 +13,9 @@ dependencies:
 
   cupertino_icons: ^1.0.2
   flutter_bloc: ^8.0.1
+  fluttertoast: ^8.0.9
+  equatable: ^2.0.3
+  dartz: ^0.10.1
 
 dev_dependencies:
   flutter_test:
@@ -26,9 +29,20 @@ flutter:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
+  fonts:
+    - family: Tajawal
+      fonts:
+        - asset: assets/fonts/Tajawal-Black.ttf
+          weight: 900
+        - asset: assets/fonts/Tajawal-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Tajawal-bold.ttf
+          weight: 700
+        - asset: assets/fonts/Tajawal-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Tajawal-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Tajawal-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Tajawal-ExtraLight.ttf
+          weight: 200
